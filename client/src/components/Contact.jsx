@@ -38,30 +38,33 @@ export default function Contact() {
     if (errors[name]) setErrors((prev) => ({ ...prev, [name]: undefined }));
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     const errs = validate();
     if (Object.keys(errs).length > 0) {
       setErrors(errs);
       return;
     }
-    setStatus('loading');
-    try {
-      const res = await axios.post('/api/contact', form);
-      setServerMsg(res.data.message || 'Order received! We will call you shortly.');
-      setStatus('success');
-      setForm(initialForm);
-      setErrors({});
-    } catch (err) {
-      const serverErrors = err?.response?.data?.errors;
-      if (serverErrors) {
-        setErrors(serverErrors);
-        setStatus('idle');
-      } else {
-        setServerMsg('Something went wrong. Please call us directly at 94422 66929.');
-        setStatus('error');
-      }
-    }
+
+    const whatsappNumber = '919442266929';
+    const message = `Hello Kwik & Fresh! I would like to place an order.
+
+*Name:* ${form.name.trim()}
+*Phone:* ${form.phone.trim()}
+*Delivery Address:*
+${form.address.trim()}
+
+*Items Needed:*
+${form.items.trim()}`;
+
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+    
+    window.open(whatsappUrl, '_blank');
+    
+    setServerMsg('Order prepared! Please send the message in WhatsApp to confirm.');
+    setStatus('success');
+    setForm(initialForm);
+    setErrors({});
   };
 
   return (
