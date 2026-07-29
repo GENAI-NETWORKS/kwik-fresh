@@ -1,0 +1,60 @@
+{
+  "categories": [
+    {
+      "id": "fruits",
+      "name": "Fruits",
+      "description": "Fresh seasonal fruits, sourced daily from farms",
+      "image": "https://images.unsplash.com/photo-1619546813926-a78fa6372cd2?w=800&auto=format&fit=crop&q=80",
+      "products": [
+        { "id": "f1", "name": "Alphonso Mangoes", "price": 120, "unit": "kg", "image": "https://images.unsplash.com/photo-1553279768-865429fa0078?w=400&auto=format&fit=crop&q=80", "inStock": true },
+        { "id": "f2", "name": "Fresh Bananas", "price": 40, "unit": "dozen", "image": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?w=400&auto=format&fit=crop&q=80", "inStock": true },
+        { "id": "f3", "name": "Sweet Watermelon", "price": 35, "unit": "kg", "image": "https://images.unsplash.com/photo-1563114773-84221bd62daa?w=400&auto=format&fit=crop&q=80", "inStock": true },
+        { "id": "f4", "name": "Pomegranate", "price": 160, "unit": "kg", "image": "https://images.unsplash.com/photo-1541344999736-83eca272f6fc?w=400&auto=format&fit=crop&q=80", "inStock": true },
+        { "id": "f5", "name": "Red Apples", "price": 200, "unit": "kg", "image": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=400&auto=format&fit=crop&q=80", "inStock": true },
+        { "id": "f6", "name": "Grapes (Green)", "price": 80, "unit": "kg", "image": "https://images.unsplash.com/photo-1537640538966-79f369143f8f?w=400&auto=format&fit=crop&q=80", "inStock": false }
+      ]
+    },
+    {
+      "id": "vegetables",
+      "name": "Vegetables",
+      "description": "Farm-fresh vegetables delivered to your door",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80",
+      "products": [
+        { "id": "v1", "name": "Tomatoes", "price": 30, "unit": "kg", "image": "https://images.unsplash.com/photo-1558818498-28c1e002b655?w=400&auto=format&fit=crop&q=80", "inStock": true },
+        { "id": "v2", "name": "Fresh Spinach", "price": 25, "unit": "bunch", "image": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?w=400&auto=format&fit=crop&q=80", "inStock": true },
+        { "id": "v3", "name": "Carrots", "price": 40, "unit": "kg", "image": "https://images.unsplash.com/photo-1447175008436-054170c2e979?w=400&auto=format&fit=crop&q=80", "inStock": true },
+        { "id": "v4", "name": "Brinjal (Eggplant)", "price": 35, "unit": "kg", "image": "https://images.unsplash.com/photo-1615484477778-ca3b77940c25?w=400&auto=format&fit=crop&q=80", "inStock": true },
+        { "id": "v5", "name": "Green Beans", "price": 50, "unit": "kg", "image": "https://images.unsplash.com/photo-1567375698348-5d9d5ae99de0?w=400&auto=format&fit=crop&q=80", "inStock": true },
+        { "id": "v6", "name": "Cauliflower", "price": 45, "unit": "piece", "image": "https://images.unsplash.com/photo-1568584711075-3d021a7c3ca3?w=400&auto=format&fit=crop&q=80", "inStock": true }
+      ]
+    },
+    {
+      "id": "grocery",
+      "name": "Grocery",
+      "description": "Daily essentials and pantry staples",
+      "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&auto=format&fit=crop&q=80",
+      "products": [
+        { "id": "g1", "name": "Basmati Rice (5kg)", "price": 350, "unit": "bag", "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400&auto=format&fit=crop&q=80", "inStock": true },
+        { "id": "g2", "name": "Toor Dal (1kg)", "price": 120, "unit": "pack", "image": "https://images.unsplash.com/photo-1612200023590-0fe6a50e5a82?w=400&auto=format&fit=crop&q=80", "inStock": true },
+        { "id": "g3", "name": "Coconut Oil (1L)", "price": 180, "unit": "bottle", "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=400&auto=format&fit=crop&q=80", "inStock": true },
+        { "id": "g4", "name": "Atta (10kg)", "price": 450, "unit": "bag", "image": "https://images.unsplash.com/photo-1565181861383-b37c61268e04?w=400&auto=format&fit=crop&q=80", "inStock": true },
+        { "id": "g5", "name": "Sugar (1kg)", "price": 45, "unit": "pack", "image": "https://images.unsplash.com/photo-1581441363689-1f3c3c0e0cd6?w=400&auto=format&fit=crop&q=80", "inStock": true },
+        { "id": "g6", "name": "Milk (1L)", "price": 60, "unit": "packet", "image": "https://images.unsplash.com/photo-1563636619-e9143da7973b?w=400&auto=format&fit=crop&q=80", "inStock": true }
+      ]
+    },
+    {
+      "id": "meat",
+      "name": "Meat",
+      "description": "Fresh cuts of chicken, mutton, and seafood",
+      "image": "https://images.unsplash.com/photo-1615937691194-97dbd3f3dc29?w=800&auto=format&fit=crop&q=80",
+      "products": [
+        { "id": "m1", "name": "Chicken (Whole)", "price": 200, "unit": "kg", "image": "https://images.unsplash.com/photo-1604503468506-a8da13d11d36?w=400&auto=format&fit=crop&q=80", "inStock": true },
+        { "id": "m2", "name": "Mutton (Curry Cut)", "price": 750, "unit": "kg", "image": "https://images.unsplash.com/photo-1529694157872-4e0c0f3b238b?w=400&auto=format&fit=crop&q=80", "inStock": true },
+        { "id": "m3", "name": "Prawns (Medium)", "price": 400, "unit": "kg", "image": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?w=400&auto=format&fit=crop&q=80", "inStock": true },
+        { "id": "m4", "name": "Fish (Rohu)", "price": 250, "unit": "kg", "image": "https://images.unsplash.com/photo-1510130387422-82bed34b37e9?w=400&auto=format&fit=crop&q=80", "inStock": true },
+        { "id": "m5", "name": "Chicken Breast", "price": 280, "unit": "kg", "image": "https://images.unsplash.com/photo-1587593810167-a84920ea0781?w=400&auto=format&fit=crop&q=80", "inStock": false },
+        { "id": "m6", "name": "Eggs (Tray of 30)", "price": 180, "unit": "tray", "image": "https://images.unsplash.com/photo-1518569656558-1f25e69d2d2d?w=400&auto=format&fit=crop&q=80", "inStock": true }
+      ]
+    }
+  ]
+}
